@@ -1,8 +1,8 @@
 import React from'react';
 import Bands from './Bands';
 import audio from '../audio/audio.mp3';
-
-const numberOfBands = 30;
+import '../css/Container.css';
+const numberOfBands = 25;
 class Container extends React.Component {
     constructor(props){
         super(props);
